@@ -22,3 +22,15 @@ def solve_quadratic_equation(a, b, c):
     else:
         return None  # 返回 None 表示没有实数根（虚根）
 
+def display_table(rows):
+    '''
+    按照要求打印表格内容
+    # 1 1 1 1 1
+    # 2 1 2 4 8
+    # 3 1 3 9 27
+    # 4 1 4 16 64
+    # 5 1 5 25 125
+
+    '''
+    for i in range(1, rows+1):
+        print(f"{i} {1} {i} {i**2} {i**3}")
