@@ -162,22 +162,79 @@ CHANGE1 = 'Python for Everyone'
 # print(f"No.27's result: {SUPERWORD4}")
 
 
+# # 28. Does '\'Coding For All' start with a substring _Coding_?
+# print('\'Coding For All')
+# # 29. Does 'Coding For All' end with a substring coding?
 
-# 28. Does '\'Coding For All' start with a substring _Coding_?
-print('\'Coding For All')
-# 29. Does 'Coding For All' end with a substring coding?
+# # 30. '   Coding For All      '  , remove the left and right trailing spaces in the given string.
+# DEALWORDS ='   Coding For All      '
+# print(len(DEALWORDS))
+# DEALWORDS =DEALWORDS.strip()
+# print(DEALWORDS)
+# print(len(DEALWORDS))
 
-# 30. '   Coding For All      '  , remove the left and right trailing spaces in the given string.
-DEALWORDS ='   Coding For All      '
-print(len(DEALWORDS))
-DEALWORDS =DEALWORDS.strip()
-print(DEALWORDS)
-print(len(DEALWORDS))
+# # 31. Which one of the following variables return True when we use the method isidentifier():
+# # 30DaysOfPython
+# # thirty_days_of_python
+# print('30DaysOfPython'.isidentifier())
+# print('thirty_days_of_python'.isidentifier())
 
-# 31. Which one of the following variables return True when we use the method isidentifier():
-# 30DaysOfPython
-# thirty_days_of_python
-print('30DaysOfPython'.isidentifier())
-print('thirty_days_of_python'.isidentifier())
+# #32 The following list contains the names of some of python libraries:
+# #  ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.
+# PYTHON_LIB= ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+# pp = ''
+# for x in PYTHON_LIB:
+#     pp += x+' '
+# print(pp)
+# 33 Use the new line escape sequence to separate the following sentences
+""" 
+I am enjoying this challenge.
+I just wonder what is next. 
+"""
+SNTC = 'I am enjoying this challenge.\nI just wonder what is next. '
+print(SNTC)
 
-#32 The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.
+# 34 Use a tab escape sequence to write the following lines.
+TITLE = 'Name\t\tAge\tCountry\tCity'
+CNT = 'Asabeneh\t250\tFinland\tHelsinki'
+print(TITLE)
+print(CNT)
+
+#35 Use the string formatting method to display the following:
+'''
+
+radius = 10
+area = 3.14 * radius ** 2
+The area of a circle with radius 10 is 314 meters square.
+
+'''
+
+radius = 10
+area = 3.14 * radius ** 2
+CNTENT=f"The area of a circle with radius {str(radius)} is {str(area)} meters square."
+print(CNTENT)
+
+#36 Make the following using string formatting methods:
+'''8 + 6 = 14
+8 - 6 = 2
+8 * 6 = 48
+8 / 6 = 1.33
+8 % 6 = 2
+8 // 6 = 1
+8 ** 6 = 262144
+'''
+
+a= 8
+b=6
+reslut = f'''
+
+{a} + {b} = {a+b}
+{a}-{b}={a-b}
+{a}*{b}={a*b}
+{a}/{b}={a/b :.2f}
+{a}%{b}={a%b}
+{a}//{b}={a//b}
+{a}**{b}={a**b}
+'''
+
+print(reslut)
