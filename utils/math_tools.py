@@ -34,3 +34,4 @@ def display_table(rows):
     '''
     for i in range(1, rows+1):
         print(f"{i} {1} {i} {i**2} {i**3}")
+        
